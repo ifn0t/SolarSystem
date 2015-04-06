@@ -21,7 +21,7 @@ h4 {
 	 font-family: 'Coda', sans-serif;  
 	/* font-family: 'Inconsolata', ;  */
 	font-weight: 400;
-	letter-spacing: .6em;
+	letter-spacing: .5em;
 }
 
 p {
@@ -29,6 +29,14 @@ p {
 	font-weight: 400;
 	letter-spacing: .1em;
 }
+
+.tab-content {
+	font-family: 'Monda', sans-serif;
+	font-weight: 400;
+	letter-spacing: .1em;
+	font-size: 16px;
+}
+
 .exploretxt {
     font-family: 'Coda', sans-serif;  
 	/* font-family: 'Inconsolata', ;  */
@@ -395,7 +403,7 @@ footer {
 
 .intro1 p{
 	line-height: 1.8em;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .intro2{
@@ -411,6 +419,11 @@ footer {
  /*  -webkit-animation-iteration-count: infinite; */
 }
 
+.intro2 p{
+	line-height: 1.8em;
+	font-size: 16px;
+}
+
 .default{
 	min-height: 100%;
 	background: url(../img/intro2.jpg) no-repeat center center scroll;
@@ -424,10 +437,7 @@ footer {
  /*  -webkit-animation-iteration-count: infinite; */
 }
 
-.intro2 p{
-	line-height: 1.8em;
-	font-size: 18px;
-}
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
@@ -794,3 +804,5 @@ footer .footer-below {
 	 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 	 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 }
+
+
