@@ -30,7 +30,7 @@
 		camera.position.z = 150; // Move the camera away from the origin, down the positive z-axis.
 
 		var render = function () {
-		  sphere.rotation.x += 0.002; // Rotate the sphere by a small amount about the x- and y-axes.
+		  sphere.rotation.x += 0.000; // Rotate the sphere by a small amount about the x- and y-axes.
 		  sphere.rotation.y += 0.005;
 
 		  renderer.render(scene, camera); // Each time we change the position of the cube object, we must re-render it.
